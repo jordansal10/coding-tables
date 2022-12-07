@@ -1,0 +1,133 @@
+#title{
+  background-color: burlywood;
+}
+h1 {
+  font-family: 'Montserrat',sans-serif; 
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.navbar-brand{
+  font-family: 'Ubuntu',sans-serif; 
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.navbar{
+  padding: 0 4.5rem;
+}
+.navitem{
+  padding: 0 18px;
+  border-color: burlywood;
+  border: 10px;
+  font-family: 'Ubuntu',sans-serif; 
+  font-weight: bold;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.title-image{
+  transform: rotate(38deg);
+}
+#features{
+  padding: 0 4.5rem;
+  background-color: dodgerblue;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+h3{
+  font-family: 'Ubuntu',sans-serif; 
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+p{
+  color: purple;
+  text-shadow: 3rem;
+}
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: bisque;
+}
+h2{
+  font-family: 'Montserrat',sans-serif; 
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 50%;
+  margin: 10px
+}
+#press{
+  background-color: burlywood;
+  text-align: center;
+}
+#testimonial-carousel{
+  background-color: transparent;
+
+}
+.carousel-item{
+  padding:7% 15%;
+}
+body{
+  background-color: burlywood;
+}
+.card-header{
+  background-color: dodgerblue;
+}
+.card-body{
+  background-color: dodgerblue;
+}
+#pricing{
+  padding: 100px;
+}
+.pricing-header{
+  background-color: black;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.card{
+  text-align: center;
+}
+
+@media(max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+.cta-heading{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#cta{
+  background-color:darkgrey;
+  color: dodgerblue;
+  padding: 7% 15%;
+  text-align: center;
+}
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+#logo{
+  flex-basis: 20%;
+  font-size: 0;
+}
+#logo img{
+  height: auto;
+  width: auto;
+  max-height: 40%;
+  max-width: 40%;
+  overflow: hidden;}
+/* COGS3 studyBuddy specific styles go here. */

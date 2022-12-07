@@ -1,0 +1,53 @@
+tr {
+  background-color: antiquewhite;
+  color:blue;
+}
+caption {
+  color: red;
+}
+td {
+  background-color: burlywood;
+}
+img {
+  border-radius: 50%;
+}
+h2 {
+  font-family:'Courier New', Courier, monospace;
+  text-shadow: 1px 1px 1px red, 2px 2px 1px black;
+}
+a {
+  color: brown;
+}
+a:visited{
+  color:green
+}
+a:active{
+  color:aqua
+}
+a:hover {
+  cursor: crosshair;
+}
+ul {
+  background: burlywood;
+  padding: 10px;
+  text-align: left;
+  border-width: 50px;
+  border-color: black;
+  list-style-type: square;
+  list-style-position: inside;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+strong{
+  text-shadow: 1px 1px 1px red, 2px 2px 1px black;
+}
+p{
+  background: burlywood;
+  padding: 10px;
+  text-align: center;
+  border-width: 50px;
+  border-color: black;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+table{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
